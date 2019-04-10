@@ -11,9 +11,9 @@ left.addEventListener('mouseleave', () => {
   });
 
 right.addEventListener('mouseenter', () => {
-    container.classList.add('hover-left');
+    container.classList.add('hover-right');
   });
 
 right.addEventListener('mouseleave', () => {
-    container.classList.remove('hover-left');
+    container.classList.remove('hover-right');
   });  
